@@ -1,0 +1,43 @@
+.outer-container {
+  background-color: plum;
+  padding: 30px;
+  margin-top: 10px;
+}
+.heading {
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+}
+.color-picker-container {
+  background-color: #ff66b2; /* Set the background color to peach-pink */
+  padding: 20px;
+  border: 2px solid pink; /* Add a pink border */
+  border-radius: 10px; /* Rounded corners */
+  text-align: center;
+  margin: 20px;
+  height: 300px;
+}
+
+.color-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.color-item {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.selected-color {
+  margin-top: 10px;
+}
+
+.btnc {
+  background-color: green;
+  color: white;
+  margin: 10px;
+  margin-top: 50px;
+}
